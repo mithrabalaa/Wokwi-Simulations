@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "author": "Mithrabala Subramanian",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -147.6,
+      "left": 32.6,
+      "attrs": { "color": "red" }
+    }
+  ],
+  "connections": [
+    [ "led1:C", "uno:GND.1", "green", [ "v115.2", "h67.6" ] ],
+    [ "led1:A", "uno:4", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
